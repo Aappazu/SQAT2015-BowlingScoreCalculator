@@ -110,3 +110,6 @@ UnitTestCaseAction 1444826316698 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444826316699 TestBowlingScoreCalculator OK
 RefactoringAction 1444826346042 TestBowlingScoreCalculator.java ADD void checkIfFirstThrowValidWithTen() METHOD
 EditAction 1444826395257 TestBowlingScoreCalculator.java 1482 8 22 8
+UnitTestCaseAction 1444826397512 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444826397512 TestBowlingScoreCalculator OK
+EditAction 1444826419256 TestBowlingScoreCalculator.java 1490 8 22 8
