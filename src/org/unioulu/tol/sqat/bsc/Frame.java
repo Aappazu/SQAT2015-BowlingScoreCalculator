@@ -48,4 +48,17 @@ public class Frame {
 	public int getSecondThrow(){
 		return this.secondThrow;
 	}
+	
+	public int getScore(){
+		return this.score;
+	}
+	
+	public boolean checkIfScoreValid(){
+		if(this.getScore() >= 0 && this.getScore() <= 10){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
 }

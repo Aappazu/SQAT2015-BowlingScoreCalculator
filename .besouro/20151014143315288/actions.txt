@@ -41,3 +41,14 @@ RefactoringAction 1444824444933 TestBowlingScoreCalculator.java RENAME check()=>
 RefactoringAction 1444824511246 TestBowlingScoreCalculator.java RENAME checkFalseScoreValues()=>void checkFalseScoreValuesOver() METHOD
 RefactoringAction 1444824519260 TestBowlingScoreCalculator.java RENAME checkFalseScoreValuesOver()=>void checkFalseScoreValuesOver10() METHOD
 EditAction 1444824522072 TestBowlingScoreCalculator.java 481 2 4 2
+CompilationAction 1444824522210 TestBowlingScoreCalculator.java
+RefactoringAction 1444824588334 Frame.java ADD boolean checkIfValidValues() METHOD
+RefactoringAction 1444824720411 TestBowlingScoreCalculator.java RENAME checkFalseScoreValuesOver10()=>void checkFalseScoreValues() METHOD
+RefactoringAction 1444824721925 TestBowlingScoreCalculator.java RENAME checkFalseScoreValues()=>void checkFalseScoreValuesValid() METHOD
+CompilationAction 1444824731333 TestBowlingScoreCalculator.java
+CompilationAction 1444824731497 TestBowlingScoreCalculator.java
+RefactoringAction 1444824872985 Frame.java ADD int getScore() METHOD
+RefactoringAction 1444825020198 Frame.java RENAME checkIfValidValues()=>boolean checkIfScoreValid() METHOD
+RefactoringAction 1444825033511 TestBowlingScoreCalculator.java RENAME checkFalseScoreValuesValid()=>void check() METHOD
+RefactoringAction 1444825035524 TestBowlingScoreCalculator.java RENAME check()=>void checkValidScore() METHOD
+EditAction 1444825137395 Frame.java 1214 10 13 0
