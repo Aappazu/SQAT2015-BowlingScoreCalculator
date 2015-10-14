@@ -55,10 +55,10 @@ public class Frame {
 	
 	public boolean checkIfScoreValid(){
 		if(this.getScore() >= 0 && this.getScore() <= 10){
-			return false;
+			return true;
 		}
 		else{
-			return true;
+			return false;
 		}
 	}
 	

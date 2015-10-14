@@ -100,3 +100,5 @@ RefactoringAction 1444826197610 Frame.java ADD boolean checkif FIELD
 RefactoringAction 1444826198628 Frame.java RENAME checkif=>boolean checkIF FIELD
 RefactoringAction 1444826202644 Frame.java RENAME checkIF=>boolean checkIfFirstThrowValid() METHOD
 EditAction 1444826262305 Frame.java 1346 11 14 0
+CompilationAction 1444826262572 Frame.java
+EditAction 1444826268075 Frame.java 1346 11 14 0
