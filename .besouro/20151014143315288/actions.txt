@@ -141,3 +141,8 @@ CompilationAction 1444826641708 TestBowlingScoreCalculator.java
 RefactoringAction 1444826654157 Frame.java ADD boolean check FIELD
 RefactoringAction 1444826661173 Frame.java RENAME check=>boolean checkIfSecondThrowValid() METHOD
 EditAction 1444826701294 Frame.java 1553 12 15 0
+UnitTestCaseAction 1444826709162 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444826709163 TestBowlingScoreCalculator OK
+RefactoringAction 1444826815264 TestBowlingScoreCalculator.java ADD void checkIfFrameValid FIELD
+RefactoringAction 1444826826789 TestBowlingScoreCalculator.java RENAME checkIfFrameValid=>void checkIfFrameValidWithNoStrikeOrSpare() METHOD
+EditAction 1444826876550 TestBowlingScoreCalculator.java 2764 15 43 15

@@ -129,5 +129,14 @@ public class TestBowlingScoreCalculator {
 		assertEquals(false, frame.checkIfSecondThrowValid());
 	}
 	
+	@Test
+	public void checkIfFrameValidWithNoStrikeOrSpare(){
+		Frame frame = new Frame(5,4);
+		
+		frame.score();
+		
+		assertEquals(true, frame.checkIfFrameValid());
+	}
+	
 
 }
