@@ -79,4 +79,17 @@ public class Frame {
 			return false;
 		}
 	}
+	
+	public boolean checkIfFrameValid(){
+		if(this.checkIfFirstThrowValid() == true){
+			if(this.checkIfSecondThrowValid() == true){
+				if(this.checkIfScoreValid() == true){
+					return true;
+				}
+			}
+		}
+		else{
+			return false;
+		}
+	}
 }
