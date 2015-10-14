@@ -70,4 +70,13 @@ public class Frame {
 			return false;
 		}
 	}
+	
+	public boolean checkIfSecondThrowValid(){
+		if(this.getSecondThrow() >= 0 && this.getSecondThrow() <= 10){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
 }

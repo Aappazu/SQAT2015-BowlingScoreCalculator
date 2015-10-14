@@ -137,3 +137,7 @@ RefactoringAction 1444826603397 TestBowlingScoreCalculator.java RENAME checkIfFi
 RefactoringAction 1444826618992 TestBowlingScoreCalculator.java RENAME checkIfFirstThrowInvalidWithMinusOne()/2=>void checkIfSecondThrowInvalidWithMinusOne() METHOD
 RefactoringAction 1444826633590 TestBowlingScoreCalculator.java RENAME checkIfFirstThrowInvalidWithEleven()/2=>void checkIfSecondThrowInvalidWithEleven() METHOD
 EditAction 1444826641450 TestBowlingScoreCalculator.java 2586 14 40 14
+CompilationAction 1444826641708 TestBowlingScoreCalculator.java
+RefactoringAction 1444826654157 Frame.java ADD boolean check FIELD
+RefactoringAction 1444826661173 Frame.java RENAME check=>boolean checkIfSecondThrowValid() METHOD
+EditAction 1444826701294 Frame.java 1553 12 15 0
