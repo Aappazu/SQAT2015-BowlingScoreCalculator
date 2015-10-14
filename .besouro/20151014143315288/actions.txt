@@ -307,3 +307,7 @@ UnitTestCaseAction 1444829629474 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444829629474 TestBowlingScoreCalculator OK
 RefactoringAction 1444829728237 Frame.java ADD int frameNumber FIELD
 EditAction 1444829753733 Frame.java 2198 13 17 0
+RefactoringAction 1444829764274 TestBowlingScoreCalculator.java ADD void che FIELD
+RefactoringAction 1444829766298 TestBowlingScoreCalculator.java REMOVE che FIELD
+RefactoringAction 1444829770820 TestBowlingScoreCalculator.java ADD void checkIfLastFrameTrue() METHOD
+EditAction 1444829822615 TestBowlingScoreCalculator.java 4614 25 81 25
