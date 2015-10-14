@@ -225,3 +225,5 @@ EditAction 1444828300892 Frame.java 2123 13 17 0
 RefactoringAction 1444828325079 TestBowlingScoreCalculator.java ADD void check FIELD
 RefactoringAction 1444828329604 TestBowlingScoreCalculator.java RENAME check=>void checkLastFrameTrue() METHOD
 EditAction 1444828409147 TestBowlingScoreCalculator.java 4611 25 81 25
+RefactoringAction 1444828444025 Frame.java ADD static int getFrameNumber() METHOD
+EditAction 1444828461465 Frame.java 2172 14 18 0
