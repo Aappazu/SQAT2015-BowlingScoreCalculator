@@ -34,3 +34,4 @@
 1444827312539 regression 1 6 true
 1444827358795 test-addition 1 26 true
 1444827358796 test-addition 1 26 true
+1444827438777 test-addition 1 64 true
