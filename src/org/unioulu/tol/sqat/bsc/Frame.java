@@ -63,7 +63,7 @@ public class Frame {
 	}
 	
 	public boolean checkIfFirstThrowValid(){
-		if(this.getFirstThrow >= 0 && this.getFirstThrow <= 10){
+		if(this.getFirstThrow() >= 0 && this.getFirstThrow() <= 10){
 			return true;
 		}
 		else{

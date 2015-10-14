@@ -104,3 +104,9 @@ CompilationAction 1444826262572 Frame.java
 EditAction 1444826268075 Frame.java 1346 11 14 0
 CompilationAction 1444826268340 Frame.java
 EditAction 1444826293179 Frame.java 1378 11 14 0
+CompilationAction 1444826293298 Frame.java
+CompilationAction 1444826305241 Frame.java
+UnitTestCaseAction 1444826316698 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444826316699 TestBowlingScoreCalculator OK
+RefactoringAction 1444826346042 TestBowlingScoreCalculator.java ADD void checkIfFirstThrowValidWithTen() METHOD
+EditAction 1444826395257 TestBowlingScoreCalculator.java 1482 8 22 8
