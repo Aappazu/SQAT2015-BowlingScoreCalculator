@@ -86,6 +86,12 @@ public class Frame {
 				if(this.checkIfScoreValid() == true){
 					return true;
 				}
+				else{
+					return false;
+				}
+			}
+			else{
+				return false;
 			}
 		}
 		else{
