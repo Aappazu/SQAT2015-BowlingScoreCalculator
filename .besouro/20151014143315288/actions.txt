@@ -27,3 +27,5 @@ RefactoringAction 1444823973330 Frame.java RENAME get()=>int getFirstThrow() MET
 RefactoringAction 1444823993882 Frame.java ADD int getSecondThrow() METHOD
 EditAction 1444824003899 Frame.java 941 8 10 0
 EditAction 1444824078961 Frame.java 1007 8 11 0
+RefactoringAction 1444824181794 TestBowlingScoreCalculator.java RENAME import org.unioulu.tol.sqat.bsc.Frame=>import org.unioulu.tol.sqat.bsc.* IMPORT
+EditAction 1444824183347 TestBowlingScoreCalculator.java 331 1 2 1
