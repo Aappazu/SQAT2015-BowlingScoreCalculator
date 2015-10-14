@@ -220,6 +220,16 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
+	public void getFrameNumber(){
+		Frame frame1 = new Frame(0,0);
+		Frame frame2 = new Frame(0,0);
+		Frame frame3 = new Frame(0,0);
+		
+		assertEquals(3, frame3.getFrameNumber());
+	}
+	
+	/*
+	@Test
 	public void checkLastFrameTrue(){
 		Frame frame1 = new Frame(0,0);
 		Frame frame2 = new Frame(0,0);
@@ -234,6 +244,7 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(true, frame10.isLastFrame());
 	}
+	*/
 	
 
 }
