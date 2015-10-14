@@ -16,10 +16,17 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void checkFalseScoreValuesValid(){
+	public void checkValidScore(){
 		Frame frame = new Frame(2,6);
 		
-		assertEquals(false, frame.checkIfValidValues());
+		assertEquals(true, frame.checkIfScoreValid());
+	}
+	
+	@Test
+	public void checkFalseScore(){
+		Frame frame = new Frame(2,9);
+		
+		assertEquals(false, frame.checkIfScoreValid());
 	}
 
 }

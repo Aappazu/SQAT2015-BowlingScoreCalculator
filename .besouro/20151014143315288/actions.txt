@@ -52,3 +52,11 @@ RefactoringAction 1444825020198 Frame.java RENAME checkIfValidValues()=>boolean 
 RefactoringAction 1444825033511 TestBowlingScoreCalculator.java RENAME checkFalseScoreValuesValid()=>void check() METHOD
 RefactoringAction 1444825035524 TestBowlingScoreCalculator.java RENAME check()=>void checkValidScore() METHOD
 EditAction 1444825137395 Frame.java 1214 10 13 0
+CompilationAction 1444825137671 TestBowlingScoreCalculator.java
+CompilationAction 1444825205690 TestBowlingScoreCalculator.java
+UnitTestCaseAction 1444825234753 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444825234753 TestBowlingScoreCalculator OK
+RefactoringAction 1444825262368 TestBowlingScoreCalculator.java ADD void check FIELD
+RefactoringAction 1444825265882 TestBowlingScoreCalculator.java RENAME check=>void checkFalseScofre FIELD
+RefactoringAction 1444825268395 TestBowlingScoreCalculator.java RENAME checkFalseScofre=>void checkFalseScore() METHOD
+EditAction 1444825306336 TestBowlingScoreCalculator.java 602 3 6 3
