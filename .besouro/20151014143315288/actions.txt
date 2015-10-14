@@ -200,3 +200,4 @@ UnitTestCaseAction 1444827806923 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444827806924 TestBowlingScoreCalculator OK
 RefactoringAction 1444827817952 TestBowlingScoreCalculator.java ADD void checkSpareFalse() METHOD
 EditAction 1444827855051 TestBowlingScoreCalculator.java 3858 22 64 22
+EditAction 1444828021661 Frame.java 2067 13 16 0
