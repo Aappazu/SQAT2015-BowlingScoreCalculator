@@ -10,7 +10,7 @@ public class Frame {
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 		this.score = 0;
-		this.frameNumber = this.frameNumber + 1;
+		frameNumber++;
 	}
 	
 	//the score of a single frame
@@ -46,7 +46,7 @@ public class Frame {
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
-		if(this.getFrameNumber() == 10){
+		if(getFrameNumber() == 10){
 			return true;
 		}
 		else{
