@@ -13,7 +13,8 @@ public class Frame {
 	
 	//the score of a single frame
 	public int score(){
-		return 0;
+		this.score = this.getFirstThrow() + this.getSecondThrow();
+		return score;
 	}
 
 	//returns whether the frame is a strike or not

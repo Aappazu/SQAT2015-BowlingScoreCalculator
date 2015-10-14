@@ -26,3 +26,4 @@ RefactoringAction 1444823970814 Frame.java RENAME getScore()=>int get() METHOD
 RefactoringAction 1444823973330 Frame.java RENAME get()=>int getFirstThrow() METHOD
 RefactoringAction 1444823993882 Frame.java ADD int getSecondThrow() METHOD
 EditAction 1444824003899 Frame.java 941 8 10 0
+EditAction 1444824078961 Frame.java 1007 8 11 0
