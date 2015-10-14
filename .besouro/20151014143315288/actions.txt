@@ -126,3 +126,14 @@ UnitTestSessionAction 1444826474286 TestBowlingScoreCalculator OK
 RefactoringAction 1444826489625 TestBowlingScoreCalculator.java ADD void checkIfFirstThrowInvalidWith FIELD
 RefactoringAction 1444826494144 TestBowlingScoreCalculator.java RENAME checkIfFirstThrowInvalidWith=>void checkIfFirstThrowInvalidWithEleven() METHOD
 EditAction 1444826523634 TestBowlingScoreCalculator.java 1860 10 28 10
+UnitTestCaseAction 1444826528369 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444826528370 TestBowlingScoreCalculator OK
+RefactoringAction 1444826575279 TestBowlingScoreCalculator.java ADD void checkIfFirstThrowValidWithZero()/2 METHOD
+RefactoringAction 1444826575280 TestBowlingScoreCalculator.java ADD void checkIfFirstThrowValidWithTen()/2 METHOD
+RefactoringAction 1444826575280 TestBowlingScoreCalculator.java ADD void checkIfFirstThrowInvalidWithMinusOne()/2 METHOD
+RefactoringAction 1444826575281 TestBowlingScoreCalculator.java ADD void checkIfFirstThrowInvalidWithEleven()/2 METHOD
+RefactoringAction 1444826589804 TestBowlingScoreCalculator.java RENAME checkIfFirstThrowValidWithZero()/2=>void checkIfSecondThrowValidWithZero() METHOD
+RefactoringAction 1444826603397 TestBowlingScoreCalculator.java RENAME checkIfFirstThrowValidWithTen()/2=>void checkIfSecondThrowValidWithTen() METHOD
+RefactoringAction 1444826618992 TestBowlingScoreCalculator.java RENAME checkIfFirstThrowInvalidWithMinusOne()/2=>void checkIfSecondThrowInvalidWithMinusOne() METHOD
+RefactoringAction 1444826633590 TestBowlingScoreCalculator.java RENAME checkIfFirstThrowInvalidWithEleven()/2=>void checkIfSecondThrowInvalidWithEleven() METHOD
+EditAction 1444826641450 TestBowlingScoreCalculator.java 2586 14 40 14

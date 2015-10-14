@@ -94,5 +94,40 @@ public class TestBowlingScoreCalculator {
 		assertEquals(false, frame.checkIfFirstThrowValid());
 	}
 	
+	public void checkIfSecondThrowValidWithZero(){
+		Frame frame = new Frame(2, 0);
+		
+		frame.score();
+		
+		assertEquals(true, frame.checkIfSecondThrowValid());
+	}
+	
+	@Test
+	public void checkIfSecondThrowValidWithTen(){
+		Frame frame = new Frame(0, 10);
+		
+		frame.score();
+		
+		assertEquals(true, frame.checkIfSecondThrowValid());
+	}
+	
+	@Test
+	public void checkIfSecondThrowInvalidWithMinusOne(){
+		Frame frame = new Frame(0, -1);
+		
+		frame.score();
+		
+		assertEquals(false, frame.checkIfSecondThrowValid());
+	}
+	
+	@Test
+	public void checkIfSecondThrowInvalidWithEleven(){
+		Frame frame = new Frame(0, 11);
+		
+		frame.score();
+		
+		assertEquals(false, frame.checkIfSecondThrowValid());
+	}
+	
 
 }
