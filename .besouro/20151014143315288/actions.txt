@@ -176,3 +176,10 @@ RefactoringAction 1444827458049 TestBowlingScoreCalculator.java ADD void checkIf
 RefactoringAction 1444827459072 TestBowlingScoreCalculator.java RENAME checkIfFrameValid=>void checkIfFrameValidWith FIELD
 RefactoringAction 1444827466595 TestBowlingScoreCalculator.java RENAME checkIfFrameValidWith=>void checkIfFrameValidWithEleven() METHOD
 EditAction 1444827487252 TestBowlingScoreCalculator.java 3263 18 52 18
+UnitTestCaseAction 1444827490772 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444827490772 TestBowlingScoreCalculator OK
+RefactoringAction 1444827522814 TestBowlingScoreCalculator.java ADD void checkIfStrike FIELD
+RefactoringAction 1444827524842 TestBowlingScoreCalculator.java RENAME checkIfStrike=>void checkIfStrike() METHOD
+RefactoringAction 1444827541891 TestBowlingScoreCalculator.java RENAME checkIfStrike()=>void checkStrike() METHOD
+RefactoringAction 1444827544417 TestBowlingScoreCalculator.java RENAME checkStrike()=>void checkStrikeTrue() METHOD
+EditAction 1444827569989 TestBowlingScoreCalculator.java 3416 19 55 19

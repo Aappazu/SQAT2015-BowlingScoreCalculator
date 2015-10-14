@@ -165,5 +165,14 @@ public class TestBowlingScoreCalculator {
 		assertEquals(false, frame.checkIfFrameValid());
 	}
 	
+	@Test
+	public void checkStrikeTrue(){
+		Frame frame = new Frame(10, 0);
+		
+		frame.score();
+		
+		assertEquals(true, frame.checkStrike());
+	}
+	
 
 }
