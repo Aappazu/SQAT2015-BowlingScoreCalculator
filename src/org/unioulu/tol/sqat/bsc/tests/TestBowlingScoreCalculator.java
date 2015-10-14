@@ -232,7 +232,7 @@ public class TestBowlingScoreCalculator {
 		Frame frame9 = new Frame(0,0);
 		Frame frame10 = new Frame(0,0);
 		
-		assertEquals(1, Frame.getFrame)
+		assertEquals(10, Frame.getFrameNumber());
 	}
 
 }

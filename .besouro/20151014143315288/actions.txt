@@ -266,3 +266,13 @@ EditAction 1444829098981 Frame.java 2106 13 17 0
 EditAction 1444829126063 Frame.java 2175 13 17 0
 RefactoringAction 1444829148377 TestBowlingScoreCalculator.java ADD void checkFrameNumber() METHOD
 EditAction 1444829201956 TestBowlingScoreCalculator.java 4595 25 70 24
+CompilationAction 1444829202225 TestBowlingScoreCalculator.java
+CompilationAction 1444829202225 TestBowlingScoreCalculator.java
+CompilationAction 1444829204507 TestBowlingScoreCalculator.java
+CompilationAction 1444829204508 TestBowlingScoreCalculator.java
+CompilationAction 1444829204667 TestBowlingScoreCalculator.java
+CompilationAction 1444829204667 TestBowlingScoreCalculator.java
+CompilationAction 1444829212537 TestBowlingScoreCalculator.java
+CompilationAction 1444829213026 TestBowlingScoreCalculator.java
+RefactoringAction 1444829233105 Frame.java ADD static int getFrameNumber() METHOD
+EditAction 1444829242535 Frame.java 2249 14 18 0
