@@ -95,3 +95,8 @@ UnitTestSessionAction 1444825957622 TestBowlingScoreCalculator OK
 RefactoringAction 1444826074117 TestBowlingScoreCalculator.java ADD void checkIfFirstThrowValid FIELD
 RefactoringAction 1444826085635 TestBowlingScoreCalculator.java RENAME checkIfFirstThrowValid=>void checkIfFirstThrowValidWithZero() METHOD
 EditAction 1444826177448 TestBowlingScoreCalculator.java 1312 7 19 7
+CompilationAction 1444826177723 TestBowlingScoreCalculator.java
+RefactoringAction 1444826197610 Frame.java ADD boolean checkif FIELD
+RefactoringAction 1444826198628 Frame.java RENAME checkif=>boolean checkIF FIELD
+RefactoringAction 1444826202644 Frame.java RENAME checkIF=>boolean checkIfFirstThrowValid() METHOD
+EditAction 1444826262305 Frame.java 1346 11 14 0

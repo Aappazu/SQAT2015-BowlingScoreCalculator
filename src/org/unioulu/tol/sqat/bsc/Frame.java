@@ -54,10 +54,16 @@ public class Frame {
 	}
 	
 	public boolean checkIfScoreValid(){
-		if(this.getScore() < 0 || this.getScore() > 10){
+		if(this.getScore() >= 0 && this.getScore() <= 10){
 			return false;
 		}
 		else{
+			return true;
+		}
+	}
+	
+	public boolean checkIfFirstThrowValid(){
+		if(this.getFirstThrow >= 0 && this.getFirstThrow <= 10){
 			return true;
 		}
 	}
