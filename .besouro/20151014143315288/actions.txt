@@ -17,3 +17,5 @@ RefactoringAction 1444823731177 TestBowlingScoreCalculator.java ADD import org.u
 RefactoringAction 1444823745293 TestBowlingScoreCalculator.java REMOVE Setup() METHOD
 RefactoringAction 1444823806520 TestBowlingScoreCalculator.java REMOVE import org.junit.Before IMPORT
 EditAction 1444823819409 TestBowlingScoreCalculator.java 335 1 2 1
+RefactoringAction 1444823838036 Frame.java ADD int score FIELD
+EditAction 1444823861493 Frame.java 834 6 8 0
