@@ -228,3 +228,4 @@ EditAction 1444828409147 TestBowlingScoreCalculator.java 4611 25 81 25
 RefactoringAction 1444828444025 Frame.java ADD static int getFrameNumber() METHOD
 EditAction 1444828461465 Frame.java 2172 14 18 0
 EditAction 1444828489633 Frame.java 2241 14 18 0
+EditAction 1444828514751 Frame.java 2234 14 18 0
