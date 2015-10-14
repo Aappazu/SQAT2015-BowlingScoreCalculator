@@ -159,3 +159,9 @@ UnitTestCaseAction 1444827312535 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444827312536 TestBowlingScoreCalculator OK
 RefactoringAction 1444827332784 TestBowlingScoreCalculator.java ADD void checkIfFrameValidWithZero() METHOD
 EditAction 1444827356720 TestBowlingScoreCalculator.java 2919 16 46 16
+UnitTestCaseAction 1444827358795 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444827358795 TestBowlingScoreCalculator OK
+RefactoringAction 1444827374075 TestBowlingScoreCalculator.java ADD void checkIfFrameValid FIELD
+RefactoringAction 1444827375102 TestBowlingScoreCalculator.java RENAME checkIfFrameValid=>void checkIfFrameValidWith FIELD
+RefactoringAction 1444827378125 TestBowlingScoreCalculator.java RENAME checkIfFrameValidWith=>void checkIfFrameValidWithMinusOne() METHOD
+EditAction 1444827417032 TestBowlingScoreCalculator.java 3097 17 49 17

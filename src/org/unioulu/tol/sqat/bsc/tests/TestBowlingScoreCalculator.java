@@ -147,5 +147,15 @@ public class TestBowlingScoreCalculator {
 		assertEquals(true, frame.checkIfFrameValid());
 	}
 	
+	@Test
+	public void checkIfFrameValidWithMinusOne(){
+		Frame frame = new Frame(-1,0);
+		
+		frame.score();
+		
+		assertEquals(false, frame.CheckIfFrameValid());
+		}
+	}
+	
 
 }
