@@ -264,3 +264,5 @@ UnitTestSessionAction 1444829036193 TestBowlingScoreCalculator OK
 RefactoringAction 1444829079774 Frame.java ADD int frameNumber FIELD
 EditAction 1444829098981 Frame.java 2106 13 17 0
 EditAction 1444829126063 Frame.java 2175 13 17 0
+RefactoringAction 1444829148377 TestBowlingScoreCalculator.java ADD void checkFrameNumber() METHOD
+EditAction 1444829201956 TestBowlingScoreCalculator.java 4595 25 70 24
