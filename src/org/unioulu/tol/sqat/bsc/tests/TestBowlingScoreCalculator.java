@@ -174,5 +174,14 @@ public class TestBowlingScoreCalculator {
 		assertEquals(true, frame.isStrike());
 	}
 	
+	@Test
+	public void checkStrikeFalse(){
+		Frame frame = new Frame(9, 0);
+		
+		frame.score();
+		
+		assertEquals(false, frame.isStrike());
+	}
+	
 
 }

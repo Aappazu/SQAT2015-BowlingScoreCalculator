@@ -186,3 +186,7 @@ EditAction 1444827569989 TestBowlingScoreCalculator.java 3416 19 55 19
 CompilationAction 1444827570088 TestBowlingScoreCalculator.java
 CompilationAction 1444827584787 TestBowlingScoreCalculator.java
 EditAction 1444827614374 Frame.java 1926 13 16 0
+UnitTestCaseAction 1444827624768 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444827624768 TestBowlingScoreCalculator OK
+RefactoringAction 1444827653218 TestBowlingScoreCalculator.java ADD void checkStrikeFalse() METHOD
+EditAction 1444827671380 TestBowlingScoreCalculator.java 3564 20 58 20
