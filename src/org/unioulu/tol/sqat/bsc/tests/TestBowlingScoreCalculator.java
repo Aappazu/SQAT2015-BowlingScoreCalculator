@@ -76,5 +76,14 @@ public class TestBowlingScoreCalculator {
 		assertEquals(true, frame.checkIfFirstThrowValid());
 	}
 	
+	@Test
+	public void checkIfFirstThrowInvalidWithMinusOne(){
+		Frame frame = new Frame(-1, 0);
+		
+		frame.score();
+		
+		assertEquals(false, frame.checkIfFirstThrowValid());
+	}
+	
 
 }

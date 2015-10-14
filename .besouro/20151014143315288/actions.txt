@@ -113,3 +113,11 @@ EditAction 1444826395257 TestBowlingScoreCalculator.java 1482 8 22 8
 UnitTestCaseAction 1444826397512 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444826397512 TestBowlingScoreCalculator OK
 EditAction 1444826419256 TestBowlingScoreCalculator.java 1490 8 22 8
+RefactoringAction 1444826428349 TestBowlingScoreCalculator.java ADD void check FIELD
+RefactoringAction 1444826431367 TestBowlingScoreCalculator.java RENAME check=>void checkIfFirstFro FIELD
+RefactoringAction 1444826433386 TestBowlingScoreCalculator.java RENAME checkIfFirstFro=>void checkIfFirstThrow FIELD
+RefactoringAction 1444826436405 TestBowlingScoreCalculator.java RENAME checkIfFirstThrow=>void checkIfFirstThrowInvalid FIELD
+RefactoringAction 1444826437424 TestBowlingScoreCalculator.java RENAME checkIfFirstThrowInvalid=>void checkIfFirstThrowInvalidWith FIELD
+RefactoringAction 1444826439943 TestBowlingScoreCalculator.java RENAME checkIfFirstThrowInvalidWith=>void checkIfFirstThrowInvalidWithMinus FIELD
+RefactoringAction 1444826441461 TestBowlingScoreCalculator.java RENAME checkIfFirstThrowInvalidWithMinus=>void checkIfFirstThrowInvalidWithMinusOne() METHOD
+EditAction 1444826471824 TestBowlingScoreCalculator.java 1676 9 25 9
