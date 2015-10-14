@@ -10,7 +10,7 @@ public class Frame {
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 		this.score = 0;
-		frameNumber = frameNumber + 1;
+		this.frameNumber = this.frameNumber + 1;
 	}
 	
 	//the score of a single frame
