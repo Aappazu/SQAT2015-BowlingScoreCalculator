@@ -190,3 +190,8 @@ UnitTestCaseAction 1444827624768 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444827624768 TestBowlingScoreCalculator OK
 RefactoringAction 1444827653218 TestBowlingScoreCalculator.java ADD void checkStrikeFalse() METHOD
 EditAction 1444827671380 TestBowlingScoreCalculator.java 3564 20 58 20
+UnitTestCaseAction 1444827674458 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444827674459 TestBowlingScoreCalculator OK
+RefactoringAction 1444827693592 TestBowlingScoreCalculator.java ADD void check FIELD
+RefactoringAction 1444827697119 TestBowlingScoreCalculator.java RENAME check=>void checkSpareTrue() METHOD
+EditAction 1444827740279 TestBowlingScoreCalculator.java 3710 21 61 21
