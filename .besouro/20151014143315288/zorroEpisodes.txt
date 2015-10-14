@@ -17,6 +17,7 @@
 1444827674459 test-addition 1 49 true
 1444827806924 test-first 4 132 true
 1444828085439 test-last 1 278 false
-1444828096765 regression 1 11 false
-1444828130880 regression 2 34 false
-1444828188484 test-addition 1 57 false
+1444828096765 regression 1 11 true
+1444828130880 regression 2 34 true
+1444828188484 test-addition 1 57 true
+1444829036193 test-first 1 847 true

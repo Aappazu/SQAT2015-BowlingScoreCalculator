@@ -218,31 +218,5 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(false, frame.isSpare());
 	}
-	
-	@Test
-	public void getFrameNumber(){
-		Frame frame1 = new Frame(0,0);
-		
-		assertEquals(1, Frame.getFrameNumber());
-	}
-	
-	/*
-	@Test
-	public void checkLastFrameTrue(){
-		Frame frame1 = new Frame(0,0);
-		Frame frame2 = new Frame(0,0);
-		Frame frame3 = new Frame(0,0);
-		Frame frame4 = new Frame(0,0);
-		Frame frame5 = new Frame(0,0);
-		Frame frame6 = new Frame(0,0);
-		Frame frame7 = new Frame(0,0);
-		Frame frame8 = new Frame(0,0);
-		Frame frame9 = new Frame(0,0);
-		Frame frame10 = new Frame(0,0);
-		
-		assertEquals(true, frame10.isLastFrame());
-	}
-	*/
-	
 
 }
