@@ -117,8 +117,4 @@ public class Frame {
 			return false;
 		}
 	}
-	
-	public static int getFrameNumber(){
-		return Frame.frameNumber;
-	}
 }

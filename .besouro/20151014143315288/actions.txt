@@ -281,3 +281,7 @@ UnitTestSessionAction 1444829261686 TestBowlingScoreCalculator FAIL
 UnitTestCaseAction 1444829282434 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444829282434 TestBowlingScoreCalculator FAIL
 EditAction 1444829313403 TestBowlingScoreCalculator.java 4299 25 72 25
+CompilationAction 1444829313673 TestBowlingScoreCalculator.java
+CompilationAction 1444829333096 TestBowlingScoreCalculator.java
+RefactoringAction 1444829345806 Frame.java REMOVE getFrameNumber() METHOD
+EditAction 1444829347163 Frame.java 2175 13 17 0
