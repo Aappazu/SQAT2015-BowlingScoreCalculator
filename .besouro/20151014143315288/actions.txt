@@ -204,3 +204,6 @@ EditAction 1444828021661 Frame.java 2067 13 16 0
 RefactoringAction 1444828054301 TestBowlingScoreCalculator.java ADD void checkSpare FIELD
 RefactoringAction 1444828059825 TestBowlingScoreCalculator.java RENAME checkSpare=>void checkSpareWithStrike() METHOD
 EditAction 1444828082162 TestBowlingScoreCalculator.java 4012 23 67 23
+UnitTestCaseAction 1444828085439 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444828085439 TestBowlingScoreCalculator OK
+EditAction 1444828095240 TestBowlingScoreCalculator.java 4012 23 67 23
