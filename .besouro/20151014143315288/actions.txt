@@ -218,3 +218,7 @@ UnitTestSessionAction 1444828130880 TestBowlingScoreCalculator OK
 RefactoringAction 1444828150754 TestBowlingScoreCalculator.java RENAME checkSpareFalse()=>void checkSpareFalseUnder() METHOD
 RefactoringAction 1444828162805 TestBowlingScoreCalculator.java ADD void checkSpareFalseOver() METHOD
 EditAction 1444828185193 TestBowlingScoreCalculator.java 4169 24 70 24
+UnitTestCaseAction 1444828188483 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444828188484 TestBowlingScoreCalculator OK
+RefactoringAction 1444828266197 Frame.java ADD int frameNumber FIELD
+EditAction 1444828300892 Frame.java 2123 13 17 0
