@@ -66,5 +66,8 @@ public class Frame {
 		if(this.getFirstThrow >= 0 && this.getFirstThrow <= 10){
 			return true;
 		}
+		else{
+			return false;
+		}
 	}
 }

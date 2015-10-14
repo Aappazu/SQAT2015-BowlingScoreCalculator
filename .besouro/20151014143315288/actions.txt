@@ -102,3 +102,5 @@ RefactoringAction 1444826202644 Frame.java RENAME checkIF=>boolean checkIfFirstT
 EditAction 1444826262305 Frame.java 1346 11 14 0
 CompilationAction 1444826262572 Frame.java
 EditAction 1444826268075 Frame.java 1346 11 14 0
+CompilationAction 1444826268340 Frame.java
+EditAction 1444826293179 Frame.java 1378 11 14 0
