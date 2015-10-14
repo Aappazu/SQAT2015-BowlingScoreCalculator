@@ -60,3 +60,6 @@ RefactoringAction 1444825262368 TestBowlingScoreCalculator.java ADD void check F
 RefactoringAction 1444825265882 TestBowlingScoreCalculator.java RENAME check=>void checkFalseScofre FIELD
 RefactoringAction 1444825268395 TestBowlingScoreCalculator.java RENAME checkFalseScofre=>void checkFalseScore() METHOD
 EditAction 1444825306336 TestBowlingScoreCalculator.java 602 3 6 3
+UnitTestCaseAction 1444825308925 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444825308925 TestBowlingScoreCalculator FAIL
+EditAction 1444825500914 TestBowlingScoreCalculator.java 603 3 6 3

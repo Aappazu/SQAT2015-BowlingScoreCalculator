@@ -24,7 +24,7 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void checkFalseScore(){
-		Frame frame = new Frame(2,9);
+		Frame frame = new Frame(2,11);
 		
 		assertEquals(false, frame.checkIfScoreValid());
 	}
