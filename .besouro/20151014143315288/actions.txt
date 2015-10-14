@@ -88,3 +88,5 @@ UnitTestCaseAction 1444825882927 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444825882928 TestBowlingScoreCalculator OK
 RefactoringAction 1444825908380 TestBowlingScoreCalculator.java RENAME checkValidScore()=>void checkValidScoreTen() METHOD
 EditAction 1444825911911 TestBowlingScoreCalculator.java 976 5 13 5
+RefactoringAction 1444825929455 TestBowlingScoreCalculator.java ADD void checkValidScoreZero() METHOD
+EditAction 1444825953783 TestBowlingScoreCalculator.java 1134 6 16 6
