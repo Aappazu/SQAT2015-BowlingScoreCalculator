@@ -195,3 +195,4 @@ UnitTestSessionAction 1444827674459 TestBowlingScoreCalculator OK
 RefactoringAction 1444827693592 TestBowlingScoreCalculator.java ADD void check FIELD
 RefactoringAction 1444827697119 TestBowlingScoreCalculator.java RENAME check=>void checkSpareTrue() METHOD
 EditAction 1444827740279 TestBowlingScoreCalculator.java 3710 21 61 21
+EditAction 1444827795902 Frame.java 1970 13 16 0
