@@ -46,7 +46,7 @@ public class Frame {
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
-		if(Frame.frameNumber == 10){
+		if(frameNumber == 10){
 			return true;
 		}
 		else{
