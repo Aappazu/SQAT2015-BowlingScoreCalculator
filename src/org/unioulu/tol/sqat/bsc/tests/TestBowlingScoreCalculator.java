@@ -23,8 +23,8 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void checkValidScore(){
-		Frame frame = new Frame(2,6);
+	public void checkValidScoreTen(){
+		Frame frame = new Frame(2,8);
 		
 		frame.score();
 		
@@ -48,5 +48,7 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(false, frame.checkIfScoreValid());
 	}
+	
+	
 
 }
