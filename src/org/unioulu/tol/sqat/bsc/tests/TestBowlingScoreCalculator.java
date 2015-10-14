@@ -46,7 +46,7 @@ public class TestBowlingScoreCalculator {
 		
 		frame.score();
 		
-		assertEquals(-1, frame.checkIfScoreValid());
+		assertEquals(false, frame.checkIfScoreValid());
 	}
 
 }
