@@ -183,3 +183,6 @@ RefactoringAction 1444827524842 TestBowlingScoreCalculator.java RENAME checkIfSt
 RefactoringAction 1444827541891 TestBowlingScoreCalculator.java RENAME checkIfStrike()=>void checkStrike() METHOD
 RefactoringAction 1444827544417 TestBowlingScoreCalculator.java RENAME checkStrike()=>void checkStrikeTrue() METHOD
 EditAction 1444827569989 TestBowlingScoreCalculator.java 3416 19 55 19
+CompilationAction 1444827570088 TestBowlingScoreCalculator.java
+CompilationAction 1444827584787 TestBowlingScoreCalculator.java
+EditAction 1444827614374 Frame.java 1926 13 16 0
