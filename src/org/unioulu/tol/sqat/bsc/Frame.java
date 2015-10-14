@@ -13,7 +13,6 @@ public class Frame {
 	
 	//the score of a single frame
 	public int score(){
-		//to be implemented
 		return 0;
 	}
 
@@ -39,5 +38,13 @@ public class Frame {
 	public int bonus(){
 		//to be implemented
 		return 0;
+	}
+	
+	public int getFirstThrow(){
+		return this.firstThrow;
+	}
+	
+	public int getSecondThrow(){
+		return this.secondThrow;
 	}
 }

@@ -19,3 +19,10 @@ RefactoringAction 1444823806520 TestBowlingScoreCalculator.java REMOVE import or
 EditAction 1444823819409 TestBowlingScoreCalculator.java 335 1 2 1
 RefactoringAction 1444823838036 Frame.java ADD int score FIELD
 EditAction 1444823861493 Frame.java 834 6 8 0
+RefactoringAction 1444823954721 Frame.java ADD int get FIELD
+RefactoringAction 1444823956237 Frame.java RENAME get=>int getScore FIELD
+RefactoringAction 1444823957754 Frame.java RENAME getScore=>int getScore() METHOD
+RefactoringAction 1444823970814 Frame.java RENAME getScore()=>int get() METHOD
+RefactoringAction 1444823973330 Frame.java RENAME get()=>int getFirstThrow() METHOD
+RefactoringAction 1444823993882 Frame.java ADD int getSecondThrow() METHOD
+EditAction 1444824003899 Frame.java 941 8 10 0
