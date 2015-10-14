@@ -1,0 +1,19 @@
+FileOpenedAction 1444822395582 TestBowlingScoreCalculator.java 223 1 1 0
+FileOpenedAction 1444823171074 Frame.java 794 6 7 0
+FileOpenedAction 1444823172469 BowlingGame.java 584 5 2 0
+RefactoringAction 1444823456781 TestBowlingScoreCalculator.java RENAME test()=>void thtest() METHOD
+RefactoringAction 1444823460320 TestBowlingScoreCalculator.java RENAME thtest()=><initializer /1> null
+RefactoringAction 1444823465836 TestBowlingScoreCalculator.java RENAME <initializer /1>=>void throwTwice() METHOD
+FileOpenedAction 1444823534940 TestSudokuVerifier.java 1063 4 8 4
+RefactoringAction 1444823588856 TestBowlingScoreCalculator.java RENAME throwTwice()=><initializer /1> null
+RefactoringAction 1444823590369 TestBowlingScoreCalculator.java RENAME <initializer /1>=>void score() METHOD
+RefactoringAction 1444823594385 TestBowlingScoreCalculator.java RENAME score()=>void scoreAfterTwoThrow() METHOD
+RefactoringAction 1444823614901 TestBowlingScoreCalculator.java RENAME scoreAfterTwoThrow()=>void scoreAfterTwoThrowNoStrikeOr() METHOD
+RefactoringAction 1444823620416 TestBowlingScoreCalculator.java RENAME scoreAfterTwoThrowNoStrikeOr()=>void scoreAfterTwoThrowNoStrikeOrSpare() METHOD
+RefactoringAction 1444823637765 TestBowlingScoreCalculator.java ADD import org.junit.Before IMPORT
+FileOpenedAction 1444823666497 TestCell.java 296 2 0 0
+RefactoringAction 1444823675989 TestBowlingScoreCalculator.java ADD void Setup() METHOD
+RefactoringAction 1444823731177 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
+RefactoringAction 1444823745293 TestBowlingScoreCalculator.java REMOVE Setup() METHOD
+RefactoringAction 1444823806520 TestBowlingScoreCalculator.java REMOVE import org.junit.Before IMPORT
+EditAction 1444823819409 TestBowlingScoreCalculator.java 335 1 2 1
