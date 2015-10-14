@@ -4,13 +4,11 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	private int score;
-	private static int frameNumber = 0;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 		this.score = 0;
-	    Frame.frameNumber++;
 	}
 	
 	//the score of a single frame
@@ -46,12 +44,7 @@ public class Frame {
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
-		if(Frame.frameNumber == 10){
-			return true;
-		}
-		else{
-			return false;
-		}
+        return false;
 	}
 
 	//bonus throws
