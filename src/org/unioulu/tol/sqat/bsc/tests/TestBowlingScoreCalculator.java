@@ -16,6 +16,13 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
+	public void scoreOverTenAfterTwoThrowNoStrikeOrSpare(){
+		Frame frame = new Frame(2,9);
+		
+		assertEquals(11, frame.score());
+	}
+	
+	@Test
 	public void checkValidScore(){
 		Frame frame = new Frame(2,6);
 		
