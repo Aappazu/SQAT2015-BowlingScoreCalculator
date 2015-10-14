@@ -193,8 +193,17 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void checkSpareFalse(){
+	public void checkSpareFalseUnder(){
 		Frame frame = new Frame(4,5);
+		
+		frame.score();
+		
+		assertEquals(false, frame.isSpare());
+	}
+	
+	@Test
+	public void checkSpareFalseOver(){
+		Frame frame = new Frame(5,6);
 		
 		frame.score();
 		
