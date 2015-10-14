@@ -32,12 +32,21 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void checkFalseScore(){
+	public void checkFalseScoreOverTen(){
 		Frame frame = new Frame(2,9);
 		
 		frame.score();
 		
 		assertEquals(false, frame.checkIfScoreValid());
+	}
+	
+	@Test
+	public void checkFalseScoreUnderZero(){
+		Frame frame = new Frame(-1,0);
+		
+		frame.score();
+		
+		assertEquals(-1, frame.checkIfScoreValid());
 	}
 
 }
