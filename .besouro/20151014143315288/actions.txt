@@ -320,3 +320,4 @@ UnitTestCaseAction 1444829868783 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444829868784 TestBowlingScoreCalculator OK
 RefactoringAction 1444829875522 Frame.java REMOVE frameNumber FIELD
 EditAction 1444829877383 Frame.java 2050 13 16 0
+EditAction 1444829890271 Frame.java 2057 13 16 0
