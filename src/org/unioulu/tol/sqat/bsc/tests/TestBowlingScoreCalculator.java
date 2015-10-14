@@ -185,7 +185,7 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void checkSpareTrue(){
-		Frame frame = new Frame(9,2);
+		Frame frame = new Frame(9,1);
 		
 		frame.score();
 		
