@@ -130,8 +130,8 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void checkIfFrameValidWithNoStrikeOrSpare(){
-		Frame frame = new Frame(5,4);
+	public void checkIfFrameValidWithTen(){
+		Frame frame = new Frame(5,5);
 		
 		frame.score();
 		

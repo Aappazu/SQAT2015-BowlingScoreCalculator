@@ -151,3 +151,7 @@ RefactoringAction 1444826887856 Frame.java ADD boolean checkIfFrameValid() METHO
 EditAction 1444827137467 Frame.java 1804 13 16 0
 CompilationAction 1444827137725 Frame.java
 EditAction 1444827207954 Frame.java 1877 13 16 0
+UnitTestCaseAction 1444827239417 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444827239418 TestBowlingScoreCalculator OK
+RefactoringAction 1444827306222 TestBowlingScoreCalculator.java RENAME checkIfFrameValidWithNoStrikeOrSpare()=>void checkIfFrameValidWithTen() METHOD
+EditAction 1444827309658 TestBowlingScoreCalculator.java 2752 15 43 15
