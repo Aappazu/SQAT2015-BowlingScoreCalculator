@@ -29,3 +29,15 @@ EditAction 1444824003899 Frame.java 941 8 10 0
 EditAction 1444824078961 Frame.java 1007 8 11 0
 RefactoringAction 1444824181794 TestBowlingScoreCalculator.java RENAME import org.unioulu.tol.sqat.bsc.Frame=>import org.unioulu.tol.sqat.bsc.* IMPORT
 EditAction 1444824183347 TestBowlingScoreCalculator.java 331 1 2 1
+UnitTestCaseAction 1444824200068 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444824200071 TestBowlingScoreCalculator OK
+RefactoringAction 1444824405344 TestBowlingScoreCalculator.java ADD void check FIELD
+RefactoringAction 1444824406358 TestBowlingScoreCalculator.java RENAME check=>void checkIf FIELD
+RefactoringAction 1444824409371 TestBowlingScoreCalculator.java RENAME checkIf=>void checkIfScore FIELD
+RefactoringAction 1444824412884 TestBowlingScoreCalculator.java RENAME checkIfScore=>void checkIfScoreValuesValid() METHOD
+RefactoringAction 1444824433906 TestBowlingScoreCalculator.java RENAME checkIfScoreValuesValid()=>void checkIfScoreValuesValidFalse() METHOD
+RefactoringAction 1444824439920 TestBowlingScoreCalculator.java RENAME checkIfScoreValuesValidFalse()=>void check() METHOD
+RefactoringAction 1444824444933 TestBowlingScoreCalculator.java RENAME check()=>void checkFalseScoreValues() METHOD
+RefactoringAction 1444824511246 TestBowlingScoreCalculator.java RENAME checkFalseScoreValues()=>void checkFalseScoreValuesOver() METHOD
+RefactoringAction 1444824519260 TestBowlingScoreCalculator.java RENAME checkFalseScoreValuesOver()=>void checkFalseScoreValuesOver10() METHOD
+EditAction 1444824522072 TestBowlingScoreCalculator.java 481 2 4 2
